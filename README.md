@@ -30,10 +30,8 @@ As it reads,
         Perform this code until the exitFlag variable is equal to <code>'y'</code>
     </em>
 </blockquote>
-
 <br>
-<br>
-Which is opposite to something like this in C/C++:
+Which is opposite to something like this in `C/C++`:
 
 ```c
     do {
@@ -47,6 +45,19 @@ Which is opposite to something like this in C/C++:
     </em>
 </blockquote>
 
+or from Python:
+
+```python
+# There is no do-while loop in Python, so we simulate it like this
+while addAnother.lower() != 'n':
+	# Code here
+```
+<blockquote>
+    <em>
+        While the <code>addAnother</code> is not equal to <code>'n'</code>, perform this code.
+    </em>
+</blockquote>
+<br>
 
 | Other Languages                         | COBOL                                                                   |
 | --------------------------------------- | ----------------------------------------------------------------------- |

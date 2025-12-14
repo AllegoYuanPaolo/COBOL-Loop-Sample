@@ -1,6 +1,6 @@
-addAnother = ""
+addAnother = "y"
 
-while addAnother.lower() != "n":  # While the user input is NOT 'n'
+while addAnother.lower() == "y":  # While the user input is NOT 'n'
    
     name = input("Enter your name: ")
     age = int(input("Enter your age: "))

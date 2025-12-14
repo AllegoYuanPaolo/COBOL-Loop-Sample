@@ -14,12 +14,12 @@ In our previous languages learned such as C/C++, Java, and PHP, we have used Loo
     - if the condition is true, the code inside the loop will **not** or **stop** execute.
     - This is because of the keyword `UNTIL` used in COBOL loops.
 
-| Other Languages                         | COBOL                                                                   |
-| --------------------------------------- | ----------------------------------------------------------------------- |
-| Executes loops if condition is **true** | Executes loop if condition is **false**                                 |
-| `do {} while (condition)`               | `PERFORM WITH TEST AFTER UNTIL condition`                               |
-| `while (condition)`                     | `PERFORM UNTIL condition` or `PERFORM WITH TEST BEFORE UNTIL condition` |
-| `for (int ctr = 0; condition; ctr++){}` | `PERFORM VARYING ctr FROM 0 BY 1 UNTIL condition`                       |
+| Other Languages                         | COBOL                                                                                                                     |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Executes loops if condition is **true** | Executes loop if condition is **false**                                                                                   |
+| `do {} while (condition)`               | `PERFORM WITH TEST AFTER UNTIL condition`                                                                                 |
+| `while (condition)`                     | `PERFORM UNTIL condition` or `PERFORM WITH TEST BEFORE UNTIL condition` (This is the default behavior of `PERFORM UNTIL`) |
+| `for (int ctr = 0; condition; ctr++){}` | `PERFORM VARYING ctr FROM 0 BY 1 UNTIL condition`                                                                         |
 
 In this COBOL sample below from [loops.cbl](txtFiles/loops.txt):
 ```cobol

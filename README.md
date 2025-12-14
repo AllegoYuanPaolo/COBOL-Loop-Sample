@@ -44,6 +44,7 @@ As it reads,
     </em>
 </blockquote>
 <br>
+
 Which is opposite to something like this in C/C++  from [loopC.c](txtFiles/loopC.txt):
 
 ```c
@@ -58,7 +59,7 @@ Which is opposite to something like this in C/C++  from [loopC.c](txtFiles/loopC
     </em>
 </blockquote>
 
-or from Python from ([loopPy.py](txtFiles/loopsPY.txt)):
+or from Python from ([loopPy.py](txtFiles/LoopsPY.txt)):
 
 ```python
 # There is no do-while loop in Python, so we simulate it like this

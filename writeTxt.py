@@ -9,7 +9,6 @@ file = fileName[0]
 if not os.path.isdir('txtFiles'):
     os.mkdir('txtFiles')
 
-txtList = os.listdir("./")
 
 
 with open(inputFile, "r") as source:
@@ -18,6 +17,7 @@ with open(inputFile, "r") as source:
             dest.write(line)
 
 
+txtList = os.listdir("./")
 for item in txtList:
     if item.endswith(".txt"):
         shutil.move(item, "txtFiles")

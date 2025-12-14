@@ -56,4 +56,4 @@ Which is opposite to something like this in C/C++:
 | `for (int ctr = 0; condition; ctr++){}` | `PERFORM VARYING ctr FROM 0 BY 1 UNTIL condition`                       |
 
 <hr><br>
-<img src="COBOl Loop Diagram.drawio.png" alt="COBOL Loop Diagram" width="250"/>
+<img src="COBOL Loop Diagram.drawio.png" alt="COBOL Loop Diagram" width="250"/>
